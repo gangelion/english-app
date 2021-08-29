@@ -9,8 +9,8 @@
           Menu
         </div>
         <div class="flex">
-          <a href="" class="m-4 w-1/2 text-center text-white ml-20 bg-blue-300 rounded-md">Quiz</a>
-          <a href="" class="m-4 w-1/2 text-center text-white mr-20 bg-blue-300 rounded-md">right</a>
+          <router-link to="quiz-view" class="m-4 w-1/2 text-center text-white ml-20 bg-blue-300 rounded-md">Quiz</router-link>
+          <router-link to="" class="m-4 w-1/2 text-center text-white mr-20 bg-blue-300 rounded-md">right</router-link>
         </div>
       </div>
       <div class="w-1/4 text-center bg-blue-200"></div>

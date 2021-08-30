@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "postcss": "postcss ./src/assets/tailwind.css -o ./src/assets/css/dist.css"
+    "postcss": "NODE_ENV=production postcss ./src/assets/tailwind.css -o ./src/assets/css/dist.css"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.7",

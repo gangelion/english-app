@@ -4,9 +4,9 @@
     <div class="flex h-screen">
       <div class="w-1/4 text-center bg-blue-200"></div>
       <div class="w-2/4 text-center">
-        <div class="text-center text-9xl mt-20">Quiz</div>
+        <div class="text-center text-9xl mt-20">クイズ</div>
         <div class="text-center mt-20">
-          Menu
+          メニュー
         </div>
         <div class="flex">
           <router-link to="" class="m-4 w-1/2 text-center text-white ml-20 bg-blue-300 rounded-md">単語</router-link>

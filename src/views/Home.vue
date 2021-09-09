@@ -6,11 +6,22 @@
       <div class="w-2/4 text-center">
         <div class="text-center text-9xl mt-20">English App</div>
         <div class="text-center mt-20">
-          Menu
+          メニュー
         </div>
         <div class="flex">
-          <router-link to="quiz-view" class="m-4 w-1/2 text-center text-white ml-20 bg-blue-300 rounded-md">Quiz</router-link>
-          <router-link to="" class="m-4 w-1/2 text-center text-white mr-20 bg-blue-300 rounded-md">right</router-link>
+          <router-link to="" class="m-4 w-1/2 text-center text-white ml-20 bg-blue-300 rounded-md">英単語</router-link>
+          <router-link to="" class="m-4 w-1/2 text-center text-white mr-20 bg-blue-300 rounded-md">熟語</router-link>
+        </div>
+        <div class="flex">
+          <router-link to="" class="m-4 w-1/2 text-center text-white ml-20 bg-blue-300 rounded-md">文法</router-link>
+          <router-link to="" class="m-4 w-1/2 text-center text-white mr-20 bg-blue-300 rounded-md">発音</router-link>
+        </div>
+        <div class="flex">
+          <router-link to="" class="m-4 w-1/2 text-center text-white ml-20 bg-blue-300 rounded-md">シノニム</router-link>
+          <router-link to="" class="m-4 w-1/2 text-center text-white mr-20 bg-blue-300 rounded-md">豆知識</router-link>
+        </div>
+        <div class="mt-20">
+          <router-link to="quiz-view" class="text-center text-white bg-blue-300 rounded-md">クイズ</router-link>
         </div>
       </div>
       <div class="w-1/4 text-center bg-blue-200"></div>
